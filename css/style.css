@@ -8756,3 +8756,18 @@ body.visible-menu-bar .fullscreen-menu{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #FFFFFF;
 }
+
+.devices-img img {
+	height: 100px;
+}
+
+.why_us ul {
+	list-style: disc;
+	text-align: left;
+}
+
+.why_us ul li {
+	list-style: disc;
+	text-align: left;
+	margin-bottom: 0.5rem;
+}

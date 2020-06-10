@@ -298,9 +298,9 @@
 	if($('#purchase-popup').length){
 		
 		//Show Popup
-		$('.purchase-box-btn').on('click', function() {
-			$('#purchase-popup').addClass('popup-visible');
-		});
+		// $('.purchase-box-btn').on('click', function() {
+		// 	$('#purchase-popup').addClass('popup-visible');
+		// });
 		$(document).keydown(function(e){
 	        if(e.keyCode == 27) {
 	            $('#purchase-popup').removeClass('popup-visible');
