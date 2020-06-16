@@ -375,6 +375,40 @@ img {
   -o-transition: all 300ms ease;
 }
 
+.btn-style-custom {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 14px 46px;
+    font-weight: 600;
+    overflow: hidden;
+    border-radius: 0px;
+    text-transform: uppercase;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    font-family: "Poppins", sans-serif;
+    transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+
+.btn-style-custom:hover {
+  color: #FFFFFF;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.btn-style-custom .txt {
+  color: #FFFFFF;
+}
+
+.btn-style-custom .txt:hover {
+  color: #FFFFFF;
+}
+
 .btn-style-one .txt {
   position: relative;
   z-index: 1;
@@ -3126,7 +3160,7 @@ body.visible-menu-bar .fullscreen-menu {
   bottom: 0px;
   opacity: 0.2;
   font-size: 40px;
-  color: transparent;
+  color: #FFFFFF;
   transform: rotate(-90deg);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #ffffff;
@@ -3407,6 +3441,7 @@ body.visible-menu-bar .fullscreen-menu {
 .coach-block .inner-box .overlay-box-two .content h5 {
   position: relative;
   line-height: 1.2em;
+  color: #ffffff;
 }
 
 .coach-block .inner-box .overlay-box-two .content h5 a {
@@ -8960,4 +8995,8 @@ a {
 .privacy h6 {
   font-family: "Poppins", sans-serif !important;
   font-weight: bold;
+}
+
+.gray {
+  color: gray !important;
 }
