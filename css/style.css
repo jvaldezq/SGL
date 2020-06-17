@@ -244,7 +244,7 @@ img {
 .scroll-to-top {
   position: fixed;
   bottom: 60px;
-  right: 60px;
+  right: 100px;
   width: 60px;
   height: 60px;
   color: #189aaa;
@@ -8948,6 +8948,7 @@ body.visible-menu-bar .fullscreen-menu {
   background-color: rgba(15, 99, 103, 1);
   transition: 0.5s;
   cursor: pointer;
+  height: 100%;
 }
 
 .choose_us_block:hover {
