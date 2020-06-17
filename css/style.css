@@ -3181,6 +3181,7 @@ body.visible-menu-bar .fullscreen-menu {
   margin-left: 30px;
   padding: 50px 35px 55px;
   border: 2px solid rgba(255, 255, 255, 0.2);
+  height: 100%;
 }
 
 .price-block .inner-box:before {
@@ -8940,6 +8941,7 @@ body.visible-menu-bar .fullscreen-menu {
   text-align: left;
   margin-bottom: 0.5rem;
   font-family: "Poppins", sans-serif !important;
+  list-style-position: inside;
 }
 
 .choose_us_block {
